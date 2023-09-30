@@ -10,7 +10,7 @@ def frequencies(items):
 
     while i < len(items):
 
-        key = items[i]
+        key =str(items[i]);
 
         if key in frequencies:
 

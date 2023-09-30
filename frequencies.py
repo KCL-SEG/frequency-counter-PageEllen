@@ -2,19 +2,43 @@
 
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
-
-def frequencies(items):   
+def frequencies(items):
 
     frequencies = {}
+
     i = 0
-    while i < items.len():
+
+    while i < len(items):
 
         key = items[i]
 
-    	if key in frequencies:
+        if key in frequencies:
+
             count = frequencies[key]	
+
             frequencies[key] = count + 1
-	else:
+
+        else:
+
             frequencies[key] = 1
+
         i += 1
-     return frequencies
+
+    return frequencies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
